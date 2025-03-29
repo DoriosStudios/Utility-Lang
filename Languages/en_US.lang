@@ -241,7 +241,7 @@ item.twm:mooshroom_essence=Mooshroom Essence
 item.twm:wither_skeleton_essence=Wither Skeleton Essence
 
 - Machines Upgrades = ## Módulos Melhorias
-item.twm:steel=Aço
+item.twm:steel=Steel Ingot
 ## +
 item.twm:energy_upgrade=§cEnergy Upgrade§r\n§7- Increases energy efficiency in Machines
 item.twm:speed_upgrade=§aSpeed Upgrade§r\n§7- Increases speed in Machines but it consumes more energy
