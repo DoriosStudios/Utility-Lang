@@ -22,15 +22,22 @@ tile.twm:xp_magnet.name=XP Magnet
 tile.twm:xp_drain.name=XP Drain
 tile.twm:xp_spout.name=XP Spout
 ## +
-tile.twm:cobble_gen_1.name=Cobblestone Generator (Tier 1)
-tile.twm:cobble_gen_2.name=Cobblestone Generator (§eTier 2§r)
-tile.twm:cobble_gen_3.name=Cobblestone Generator (§aTier 3§r)
-tile.twm:cobble_gen_4.name=Cobblestone Generator (§bTier 4§r)
-tile.twm:cobble_gen_5.name=Cobblestone Generator (§8Tier 5§r)
+tile.twm:cobble_gen_1.name=Cobblestone Generator (Tier 1) \n§7- Produces 0.5 per second
+tile.twm:cobble_gen_2.name=Cobblestone Generator (§eTier 2§r)§7- Produces 1 per second
+tile.twm:cobble_gen_3.name=Cobblestone Generator (§aTier 3§r)§7- Produces 2 per second
+tile.twm:cobble_gen_4.name=Cobblestone Generator (§bTier 4§r)§7- Produces 4 per second
+tile.twm:cobble_gen_5.name=Cobblestone Generator (§8Tier 5§r)§7- Produces 20 per second
 ## +
 tile.twm:conveyor_horizontal.name=Horizontal Conveyor
 tile.twm:conveyor_inclined.name=Inclined Conveyor
 tile.twm:conveyor_declined.name=Declined Conveyor
+tile.twm:mechanic_hopper.name=Mechanic Hopper
+tile.twm:mechanic_upper.name=Mechanic Upper
+##+ 
+tile.twm:basic_fluid_tank.name=§eBasic Fluid Tank
+tile.twm:advanced_fluid_tank.name=§cAdvanced Fluid Tank
+tile.twm:expert_fluid_tank.name=§bExpert Fluid Tank
+tile.twm:ultimate_fluid_tank.name=§8Ultimate Fluid Tank
 
 - Bountiful Bonsais = ## Bonsais Abundantes
 tile.twm:bonsai.name=Bonsai
@@ -79,14 +86,14 @@ tile.twm:wither_crop.name=Wither Crop
 ## -------- Close Group <<<<<<<< ##
 
 - Soils = ## Soils
-tile.twm:blue_soil.name=§9Blue Soil
+tile.twm:blue_soil.name=§bBlue Soil
 tile.twm:black_soil.name=§8Black Soil
 tile.twm:red_soil.name=§cRed Soil
 tile.twm:yellow_soil.name=§eYellow Soil
 
 - Mechanical Spawners = ## Invocadores Mecânicos
-tile.twm:mechanical_spawner.name=Invocador Mecânico
-tile.twm:spawner_core.name=Núcleo de Invocador
+tile.twm:mechanical_spawner.name=Mechanical Spawner
+tile.twm:spawner_core.name=Spawner Core
 
 - Compressed Blocks = ## Blocos Comprimidos
 tile.twm:compressed_cobblestone.name=Compressed cobblestone
@@ -107,18 +114,22 @@ tile.twm:compressed_diamond_block.name=Compressed Diamond Block
 tile.twm:compressed_coal_block.name=Compressed Coal Block
 tile.twm:compressed_iron_block.name=Compressed Iron Block
 
-- Utility Blocks = ## Blocos Utilitários
-tile.twm:asphalt.name=Asphalt
+- Utility Blocks = ## Blocks
+tile.twm:asphalt.name=Asphalt 
 tile.twm:big_torch.name=Big Torch
 tile.twm:elevator.name=Elevator
 tile.twm:flint_block.name=Flint Block
 tile.twm:lantern.name=Lantern
 tile.twm:sink.name=Sink
-## +
+
+## + Vehicles
 tile.twm:drill_placer.name=Drill
 tile.twm:tractor_placer.name=Tractor
-## +
+
+## + Crushed Blocks
 tile.twm:crushed_netherrack.name=Crushed Netherrack
+tile.twm:crushed_endstone.name=Crushed Endstone
+tile.twm:crushed_cobbled_deepslate.name=Crushed Cobbled Deepslate
 
 
 - Actions = ## Ações/Interações
@@ -184,23 +195,23 @@ item.twm:water_seeds=Water Seeds \n§eTier 1
 item.twm:wool_seeds=Wool Seeds \n§eTier 1
 
 -- Tier 2 = ## Tier (Seeds) 2
-item.twm:ghast_seeds=Sementes de Ghast \n§cTier 2
-item.twm:glowstone_seeds=Sementes de Glowstone \n§cTier 2
-item.twm:gold_seeds=Sementes de Ouro \n§cTier 2
-item.twm:honey_seeds=Sementes de Mel \n§cTier 2
-item.twm:lapis_seeds=Sementes de Lápis-lazúli \n§cTier 2
-item.twm:lava_seeds=Sementes de Lava \n§cTier 2
-item.twm:quartz_seeds=Sementes de Quartzo \n§cTier 2
-item.twm:redstone_seeds=Sementes de Redstone \n§cTier 2
-item.twm:slime_seeds=Sementes de Slime \n§cTier 2
+item.twm:ghast_seeds=Ghast Seeds \n§cTier 2
+item.twm:glowstone_seeds=Glowstone Seeds \n§cTier 2
+item.twm:gold_seeds=Gold Seeds \n§cTier 2
+item.twm:honey_seeds=Honey Seeds \n§cTier 2
+item.twm:lapis_seeds=Lapis Seeds \n§cTier 2
+item.twm:lava_seeds=Lava Seeds \n§cTier 2
+item.twm:quartz_seeds=Quartz Seeds \n§cTier 2
+item.twm:redstone_seeds=Redstone Seeds \n§cTier 2
+item.twm:slime_seeds=Slime Seeds \n§cTier 2
 
 -- Tier 3 = ## Tier (Seeds) 3
-item.twm:amethyst_seeds=Sementes de Ametista \n§9Tier 3
-item.twm:blaze_seeds=Sementes de Blaze \n§9Tier 3
-item.twm:diamond_seeds=Sementes de Diamante \n§9Tier 3
-item.twm:emerald_seeds=Sementes de Esmeralda \n§9Tier 3
-item.twm:enderpearl_seeds=Sementes de Pérola do End \n§9Tier 3
-item.twm:obsidian_seeds=Sementes de Obsidiana \n§9Tier 3
+item.twm:amethyst_seeds=Amethyst Seeds \n§bTier 3
+item.twm:blaze_seeds=Blaze Seeds \n§bTier 3
+item.twm:diamond_seeds=Diamond Seeds \n§bTier 3
+item.twm:emerald_seeds=Emerald Seeds \n§bTier 3
+item.twm:enderpearl_seeds=Enderpearl Seeds \n§bTier 3
+item.twm:obsidian_seeds=Obsidian Seeds \n§bTier 3
 
 -- Tier 4 = ## Tier (Seeds) 4
 item.twm:nether_star_seeds=Nether Star Seeds \n§8Tier 4
@@ -216,14 +227,14 @@ item.twm:wither_seeds=Wither Seeds \n§8Tier 4
 ## --------------------------------------------------------
 
 
-- Mesh = ## Malha
+- Mesh = ## Meshs
 item.twm:diamond_mesh=Diamond Mesh
 item.twm:iron_mesh=Iron Mesh
 item.twm:netherite_mesh=Netherite Mesh
 item.twm:string_mesh=String Mesh
 
-- Essences = ## Essências
-item.twm:essence_vessel=Essence Vessel
+- Essences = ## Essences
+item.twm:essence_vessel=Essence Vessel \n§7- Right click or interact with an entity\n- Kill mobs of that type to fill the essence
 item.twm:pig_essence=Pig Essence
 item.twm:cow_essence=Cow Essence
 item.twm:zombie_essence=Zombie Essence
@@ -240,12 +251,11 @@ item.twm:magma_cube_essence=Magma Cube Essence
 item.twm:mooshroom_essence=Mooshroom Essence
 item.twm:wither_skeleton_essence=Wither Skeleton Essence
 
-- Machines Upgrades = ## Módulos Melhorias
-item.twm:steel=Aço
+- Machines Upgrades = ## Machines Upgrades
 ## +
 item.twm:energy_upgrade=§cEnergy Upgrade§r\n§7- Increases energy efficiency in Machines
 item.twm:speed_upgrade=§aSpeed Upgrade§r\n§7- Increases speed in Machines but it consumes more energy
-item.twm:range_upgrade=§9Alcance Upgrade§r\n§7- Increases range for Machines
+item.twm:range_upgrade=§bRange Upgrade§r\n§7- Increases range for Machines
 item.twm:quantity_upgrade=§3Quantity Upgrade§r\n§7- Increases mob cap spawn for Mechanical Spawner
 item.twm:ultimate_upgrade=§8Ultimate Upgrade
 ## +
@@ -451,8 +461,8 @@ item.twm:steel_nugget=Steel Nugget
 item.twm:steel_plate=Steel Plate
 
 item.twm:copper_plate=Copper Plate
-item.twm:gold_plate=gold_plate
-item.twm:iron_plate=iron_plate
+item.twm:gold_plate=Gold Plate
+item.twm:iron_plate=Iron Plate
 item.twm:netherite_plate=Netherite Plate
 
 item.twm:copper_nugget=Copper Nugget
@@ -484,5 +494,3 @@ tile.twm:induction_anvil.name=Induction Anvil
 tile.twm:crucible.name=Crucible
 tile.twm:magmatic_chamber.name=Magmatic Chamber
 tile.twm:mechanic_dropper.name=Mechanical Dropper
-tile.twm:crushed_endstone.name=Crushed Endstone
-tile.twm:crushed_cobbled_deepslate.name=Crushed Cobbled Deepslate
