@@ -1,3 +1,6 @@
+# Main Tabs
+[Commits / Updates / Changelogs](https://github.com/DoriosStudios/Utility-Lang/commits/main/)
+
 # Language Repository for UtilityCraft
 This will be, from now on, the main database regarding the add-on's languages.
 
