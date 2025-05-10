@@ -7,33 +7,50 @@
 tile.twm:workbench.name=Bancada de Engenharia
 tile.twm:utility_table.name=Bancada de Ferramentas Avançada
 
-- Fluid Tanks = ##Tanques de Fluidos
+- Fluid Stuff = ##Gerenciadores Fluidos
 
 tile.twm:basic_fluid_tank.name=Tanque de Fluido §eBásico
 tile.twm:advanced_fluid_tank.name=Tanque de Fluido §cAvançado
 tile.twm:expert_fluid_tank.name=Tanque de Fluido §3Expert
 tile.twm:ultimate_fluid_tank.name=Tanque de Fluido §8Supremo
+tite.twm:fluid_pump=Bomba \n§7- Extrai líquidos do solo ou de outras máquinas
+tite.twm:fluid_pipe=Cano \n§7- Transporta líquidos
 
 - Machines = ## Máquinas
 tile.twm:autosieve.name=Peneira Automátizada
+tile.twm:assembler.name=Montador
 tile.twm:block_breaker.name=Quebra-Bloco
+tile.twm:block_placer.name=Coloca-Bloco
+tile.twm:crucible=Crisol
+tile.twm:crusher.name=Triturador
+tile.twm:digitalizer.name=Digitalizador
+tile.twm:electro_press.name=Prensa Elétrica
 tile.twm:ender_hopper.name=Funil do Fim
-tile.twm:mechanic_hopper.name=Funil Mecânico
-entity.twm:mechanic_upper=Funil Mecânico
-tile.twm:mechanic_upper.name=Funil Mecânico Invertido
-entity.twm:mechanic_upper=Funil Mecânico Invertido
-## +
-tile.twm:cobble_gen_1.name=Gerador de Pedregulho (Tier 1)
-tile.twm:cobble_gen_2.name=Gerador de Pedregulho (§eTier 2§r)
-tile.twm:cobble_gen_3.name=Gerador de Pedregulho (§aTier 3§r)
-tile.twm:cobble_gen_4.name=Gerador de Pedregulho (§bTier 4§r)
-tile.twm:cobble_gen_5.name=Gerador de Pedregulho (§8Tier 5§r)
-## +
+tile.twm:incinerator.name=Incinerador
+tile.twm:infuser.name=Infusor
+tile.twm:induction_anvil.name=Bigorna de Indução
+tile.twm:magmatic_chamber.name=Câmara Magmática
+tile.twm:mortar=Pilão
+tile.twm:seed_synthesizer.name=Sintetizador de Sementes
+tile.twm:xp_condenser.name=Condensador de XP
+## COBBLE GEN
+tile.twm:cobble_gen_1.name=Gerador de Pedregulho (Tier 1)\n§7- Gera 0.5 por segundo
+tile.twm:cobble_gen_2.name=Gerador de Pedregulho (§eTier 2§r)\n§7- Gera 1 por segundo
+tile.twm:cobble_gen_3.name=Gerador de Pedregulho (§aTier 3§r)\n§7- Gera 2 por segundo
+tile.twm:cobble_gen_4.name=Gerador de Pedregulho (§bTier 4§r)\n§7- Gera 4 por segundo
+tile.twm:cobble_gen_5.name=Gerador de Pedregulho (§8Tier 5§r)\n§7- Gera 20 por segundo
+## TRANSPORTATION
 tile.twm:conveyor_horizontal.name=Esteira horizontal
 tile.twm:conveyor_inclined.name=Esteira Inclinada §7(Pra cima)
 tile.twm:conveyor_declined.name=Esteira inclinada §7(Pra baixo)
-tile.twm:crusher.name=Triturador
-## +
+tile.twm:energy_cable.name=Cabo de Energia
+tile.twm:item_exporter.name=Exportador de Itens
+tile.twm:item_conduit.name=Tubo de Itens
+tile.twm:mechanic_dropper.name=Liberador Mecânico
+tile.twm:mechanic_hopper.name=Funil Mecânico
+tile.twm:mechanic_upper.name=Funil Mecânico Invertido
+entity.twm:mechanic_upper=Funil Mecânico Invertido
+## MISC
 tile.twm:fan.name=Ventilador
 tile.twm:harvester.name=Colheitadera
 tile.twm:machine_case.name=Chassi de Máquinas
@@ -278,7 +295,7 @@ tile.twm:compressed_weathered_copper_block_3.name=Bloco de Cobre Oxidado Triplam
 tile.twm:compressed_weathered_copper_block_4.name=Bloco de Cobre Oxidado Quadruplicadamente Comprimido
 - Utility Blocks = ## Blocos Utilitários
 tile.twm:asphalt.name=Asfalto
-tile.twm:big_torch.name=Mega Tocha
+tile.twm:big_torch.name=Tocha Grande
 tile.twm:crushed_netherrack.name=Netherrack Triturada
 tile.twm:elevator.name=Elevador
 tile.twm:flint_block.name=Bloco de Sílex
@@ -327,6 +344,7 @@ item.twm:lucky_pickaxe=§aPicareta da Sorte ## My beloved
 item.twm:lucky_sword=§aEspada da Sorte
 item.twm:smelting_pickaxe=§6Picareta de Fusão\n§7- Derrete os minérios ao quebrá-los
 item.twm:lucky_fishing_rod=§aVara de Pesca da Sorte
+item.twm:flint_knife=Faca de Sílex \n§7- Corte folhas para consehuir fibras
 
 -- Drills = ## Brocas
 item.twm:drill=Broca\n§7- Minera em escala 3x3
@@ -378,20 +396,66 @@ item.twm:totem_seeds=Totem Seeds §8Tier 4
 item.twm:wither_seeds=Wither Seeds §8Tier 4
 ## -------- Close Group <<<<<<<< ##
 
-
-## --------------------------------------------------------
-## You've gone too far, rest a little bit before proceding.
-## --------------------------------------------------------
-
+- Pebbles & Chunks | Pedaços e Gravilhas -------------
+item.twm:ancient_debris_chunk=Pedaço de Detrito Ancestral
+item.twm:blackstone_pebble=Gravilha de Pedra Negra
+item.twm:basalt_pebble=Gravilha de Basalto
+item.twm:crushed_netherrack_handful=Punhado de Netherrack Triturada
+item.twm:calcite_pebble=Gravilha de Calcita
+item.twm:coal_chunk=Pedaço de Carvão
+item.twm:copper_chunk=Pedaço de Cobre
+item.twm:crushed_deepslate_handful=Punhado de Ardosiabissal Triturada
+item.twm:crushed_endstone_handful=Punhado de Pedra do Fim Triturada
+item.twm:deepslate_coal_chunk=Pedaço de Carvão de Ardosiabissal
+item.twm:deepslate_diamond_chunk=Pedaço de Diamante de Ardosiabissal
+item.twm:deepslate_emerald_chunk=Pedaço de Esmeralda de Ardosiabissal
+item.twm:deepslate_gold_chunk=Pedaço de Ouro de AArdosiabissal
+item.twm:deepslate_iron_chunk=Pedaço de Ferro de Ardosiabissal
+item.twm:deepslate_lapislazuli_chunk=Pedaço de Lápis-lazúli de Ardosiabissal
+item.twm:deepslate_pebble=Gravilha de Bloco de Ardosiabissal
+item.twm:deepslate_redstone_chunk=Pedaço de Redstone de Ardosiabissal
+item.twm:diamond_chunk=Pedaço de Diamante
+item.twm:diamond_shard=Fragmento de Diamante
+item.twm:diorite_pebble=Gravilha de Diorito
+item.twm:andesite_pebble=Gravilha de Andesito
+item.twm:dirt_handful=Punhado de Terra
+item.twm:dripstone_pebble=Gravilha de Estalactita
+item.twm:emerald_chunk=Pedaço de Esmeralda
+item.twm:emerald_shard=Fragmento de Esmeralda
+item.twm:endstone_pebble=Gravilha de Pedra do Fim
+item.twm:geode=Geodo
+item.twm:gilded_blackstone_pebble=Gravilha de Pedregulho Negro Dourado
+item.twm:gold_chunk=Pedaço de Ouro
+item.twm:granite_pebble=Gravilha de Granito
+item.twm:gravel_fragments=Fragmentos de Cascalho
+item.twm:iron_chunk=Pedaço de Ferro
+item.twm:lapislazuli_chunk=Pedaço de Lápis-lazúli
+item.twm:mud_ball=Bola de Lama
+item.twm:nether_gold_chunk=Pedaço de Ouro do Nether
+item.twm:nether_quartz_chunk=Pedaço de Quartzo do Nether
+item.twm:nether_star_fragment=Fragmento de Estrela do Nether
+item.twm:netherrack_pebble=Gravilha de Netherrack
+item.twm:red_sand_handful=Punhado de Areia Vermelha
+item.twm:redstone_chunk=Pedaço de Redstone
+item.twm:sand_handful=Punhado de Areia
+item.twm:shulker_shell_shard=Fragmento de Casca de Shulker
+item.twm:souls_handful=Punhado de Almas
+item.twm:stone_pebble=Gravilha de Pedra
+item.twm:totem_shard=Fragmento de Totem
+item.twm:tuff_pebble=Gravilha de Tufo
+item.twm:wither_skull_shard=Fragmento de Crânio do Wither
 
 - Mesh = ## Malha
-item.twm:diamond_mesh=Malha de Diamante
+iitem.twm:string_mesh=Malha de Linha
+item.twm:flint_mesh=Malha de Sílex
 item.twm:iron_mesh=Malha de Ferro
+item.twm:golden_mesh=Malha de Ouro
+item.twm:emerald_mesh=Malha de Esmeralda
+item.twm:diamond_mesh=Malha de Diamante
 item.twm:netherite_mesh=Malha de Netherita
-item.twm:string_mesh=Malha de Linha
 
 - Essences = ## Essências
-item.twm:essence_vessel=Garrafa de Essência
+item.twm:essence_vessel=Garrafa de Essência \n§7- Interaja com um mob para escolher\n- Mate mobs do mesmo tipo para preencher
 item.twm:pig_essence=Essência de Porco
 item.twm:cow_essence=Essência de Vaca
 item.twm:zombie_essence=Essência de Zumbi
@@ -411,11 +475,11 @@ item.twm:wither_skeleton_essence=Essência de Esqueleto Wither
 - Machines Upgrades = ## Módulos Melhorias
 item.twm:steel_ingot=Barra de Aço
 ## +
-item.twm:energy_upgrade=Módulo de Melhoria de §4Energia§r\n§7- Aumenta a eficiência e a capacidade de máquinas elétricas
-item.twm:speed_upgrade=Módulo de Melhoria de §aVelocidade§r\n§7- Aumenta a eficiência de uma máquina
+item.twm:energy_upgrade=Módulo de Melhoria de §4Energia§r\n§7- Aumenta a eficiência de máquinas elétricas
+item.twm:speed_upgrade=Módulo de Melhoria de §aVelocidade§r\n§7- Aumenta a eficiência de uma máquina\n- Aumenta o consumo de energia
 item.twm:range_upgrade=Módulo de Melhoria de §9Alcance§r\n§7- Aumenta o alcance de uma máquina
-item.twm:quantity_upgrade=Módulo de Melhoria de §3Quantidade§r\n§7- Aumenta a capacidade ou o multiplicador de uma máquina
-item.twm:ultimate_upgrade=Módulo de Melhoria §5Supremo§r\n§g- A Melhoria Suprema\n§7- Aumenta absurdamente os atributos de máquinas elétricas
+item.twm:quantity_upgrade=Módulo de Melhoria de §3Quantidade§r\n§7- Aumenta o multiplicador de uma máquina
+item.twm:ultimate_upgrade=Módulo de Melhoria §8Supremo§r\n§7- A Melhoria Suprema
 ## +
 item.twm:base_upgrade=Módulo de Melhoria\n§7- Usado para criar módulos de melhorias para máquinas
 
@@ -432,7 +496,7 @@ item.twm:antidote_potion_splash=Antídoto Arremessável
 item.twm:infinite_enderpearl=Pérola do Fim Infinita
 item.twm:ore_igniter=Combustor de Minérios
 item.twm:raw_leather=Couro Fresco
-item.twm:smeltflare=Material de Fusão
+item.twm:smeltflare=Chama de Fusão
 item.twm:wrench=Chave Inglesa
 
 - Saplings = ## Mudas
@@ -483,6 +547,7 @@ item.twm:steel_nugget=Pepita de Aço
 item.twm:steel_plate=Placa de Aço
 tile.twm:xp_drain.name=Extrator de XP
 tile.twm:xp_spout.name=Bico de XP
+item.twm:fiber=Fibra
 
 - Progress Bars = Barras de Progressão ##///////////////////////////////////////////////////////////////
 item.twm:energy_bar_0=Energia:
@@ -581,13 +646,15 @@ tile.twm:ultimate_magmator.name=§8Magmador Supremo\n §7 Velocidade: 5 kDE/t
 tile.twm:ultimate_thermo_generator.name=§8Gerador Térmico Supremo \n §7 Velocidade: 2 kDE/t
 tile.twm:ultimate_battery.name=§8Bateria Suprema\n §7 Velocidade: 10 kDE/t
 tile.twm:ultimate_solar_panel.name=§8Painel Solar Supremo \n §7 Velocidade: 500 DE/t
-< Energy Generators = Geradores de Energia ##///////////////////////////////////////////////////////////////
+< Energy Generators = Geradores de Energia 
+##///////////////////////////////////////////////////////////////
 
 - Stuff = ## Coisas Não-Categorizadas
 tile.twm:waycenter.name=Centro de Waypoints
 tile.twm:waycarpet.name=Carpete Waypoint
 item.twm:way_chip=Chip de Waypoint
-
+item.twm:blueprint=Esquema
+item:twm:blueprint_paper=Esquema Vazio
 item.twm:amethyst_dust=Pó de Ametista
 item.twm:diamond_dust=Pó de Diamante
 item.twm:emerald_dust=Pó de Esmeralda
@@ -600,9 +667,12 @@ item.twm:netherite_dust=Pó de Netherita
 item.twm:netherite_scrap_dust=Pó de Sucata de Netherita
 item.twm:charcoal_dust=Pó de Carvão Vegetal
 item.twm:coal_dust=Pó de Carvão
-item.twm:crying_obsidian_dust=Pó de Obsidian Chorona
+item.twm:crying_obsidian_dust=Pó de Obsidian Gritante
 item.twm:refined_obsidian_dust=Pó de Obsidian Refinada
-item.twm:filter_upgrade=Módulo de Melhoria de Filtro\n§7- Adiciona à determinadas máquinas a capacidade de filtrar itens 
+item.twm:ender_pearl_dust=Pó de Pérola do Fim
+
+
+item.twm:filter_upgrade=Módulo de Melhoria de Filtro\n§7- Usada para filtrar itens em funís mecânicos ou conduítes
 
 item.twm:chip=Chip
 item.twm:basic_chip=Chip §eBásico
@@ -613,7 +683,7 @@ item.twm:ultimate_chip=Chip §8Supremo
 item.twm:energized_iron_ingot=Barra de Ferro Energizado
 item.twm:energized_iron_dust=Pó de Ferro Energizado
 item.twm:energized_iron_nugget=Pepita de Ferro Energizado
-item.twm:energized_iron_dust=Pó de Ferro Energizado ##Dpubled? 
+item.twm:energized_iron_dust=Pó de Ferro Energizado
 item.twm:energized_iron_plate=Placa de Ferro Energizado
 item.twm:raw_energized_iron=Ferro Energizado Bruto
 item.twm:energized_iron_block=Bloco de Ferro Energizado
@@ -629,12 +699,6 @@ item.twm:copper_nugget=Pepita de Cobre
 item.twm:netherite_nugget=Pepita de Netherita
 
 tile.twm:raw_steel_block.name=Bloco de Aço Bruto
-tile.twm:electro_press.name=Prensa Elétrica
-tile.twm:block_placer.name=Coloca-Bloco
-tile.twm:xp_condenser.name=Condensador de XP
-tile.twm:seed_synthesizer.name=Sintetizador de Sementes
-tile.twm:incinerator.name=Incinerador
-tile.twm:infuser.name=Infusor
 
 item.twm:arrow_indicator_90=Seta Indicadora
 < Stuff = ## Coisas Não-Categorizadas
@@ -646,6 +710,86 @@ dorios:itemGroup.name.batteries=Baterias
 dorios:itemGroup.name.compressed=Blocos Comprimidos
 dorios:itemGroup.name.tanks=Tanques de Fluidos
 dorios:itemGroup.name.cobble_gens=Geradores de Pedregulho
-dorios:itemGroup.name.soils=Terras Aradas
+dorios:itemGroup.name.soils=Terras Aradas / Solos Férteis
 dorios:itemGroup.name.indicators=Indicadores
+dorios:itemGroup.name.transportation=Transportação
+dorios:itemGroup.name.pebbles=Pedaços, Fragmentos e Gravilhas
+dorios:itemGroup.name.pipes=Tubos e Canos
+dorios:itemGroup.name.dusts=Pós
+dorios:itemGroup.name.seeds=Sementes
+dorios:itemGroup.name.basics=Básicos
+dorios:itemGroup.name.mob_grinding=Gerenciamento de Criaturas
 ## < Categories
+
+- Progress Bars = Barras de Progressão ##///////////////////////////////////////////////////////////////
+item.twm:energy_bar_0=Energia:
+item.twm:energy_bar_1=Energia:
+item.twm:energy_bar_2=Energia:
+item.twm:energy_bar_3=Energia:
+item.twm:energy_bar_4=Energia:
+item.twm:energy_bar_5=Energy:
+item.twm:energy_bar_6=Energia:
+item.twm:energy_bar_7=Energia:
+item.twm:energy_bar_8=Energia:
+item.twm:energy_bar_9=Energia:
+item.twm:energy_bar_10=Energia:
+item.twm:energy_bar_11=Energia:
+item.twm:energy_bar_12=Energia:
+item.twm:energy_bar_13=Energia:
+item.twm:energy_bar_14=Energia:
+item.twm:energy_bar_15=Energia:
+item.twm:energy_bar_16=Energia:
+item.twm:fuel_bar_0=Combustível: 
+item.twm:fuel_bar_1=Combustível:
+item.twm:fuel_bar_2=Combustível:
+item.twm:fuel_bar_3=Combustível:
+item.twm:fuel_bar_4=Combustível:
+item.twm:fuel_bar_5=Combustível:
+item.twm:fuel_bar_6=Combustível:
+item.twm:fuel_bar_7=Combustível:
+item.twm:fuel_bar_8=Combustível:
+item.twm:fuel_bar_9=Combustível:
+item.twm:fuel_bar_10=Combustível:
+item.twm:fuel_bar_11=Combustível:
+item.twm:fuel_bar_12=Combustível:
+item.twm:fuel_bar_13=Combustível:
+item.twm:fuel_bar_14=Combustível:
+item.twm:fuel_bar_15=Combustível:
+item.twm:fuel_bar_16=Combustível:
+item.twm:lava_bar_0=Lava:
+item.twm:lava_bar_1=Lava:
+item.twm:lava_bar_2=Lava:
+item.twm:lava_bar_3=Lava:
+item.twm:lava_bar_4=Lava:
+item.twm:lava_bar_5=Lava:
+item.twm:lava_bar_6=Lava:
+item.twm:lava_bar_7=Lava:
+item.twm:lava_bar_8=Lava:
+item.twm:lava_bar_9=Lava:
+item.twm:lava_bar_10=Lava:
+item.twm:lava_bar_11=Lava:
+item.twm:lava_bar_12=Lava:
+item.twm:lava_bar_13=Lava:
+item.twm:lava_bar_14=Lava:
+item.twm:lava_bar_15=Lava:
+item.twm:lava_bar_16=Lava:
+item.twm:water_bar_0=Àgua:
+item.twm:water_bar_1=Àgua:
+item.twm:water_bar_2=Àgua:
+item.twm:water_bar_3=Àgua:
+item.twm:water_bar_4=Àgua:
+item.twm:water_bar_5=Àgua:
+item.twm:water_bar_6=Àgua:
+item.twm:water_bar_7=Àgua:
+item.twm:water_bar_8=Àgua:
+item.twm:water_bar_9=Àgua:
+item.twm:water_bar_10=Àgua:
+item.twm:water_bar_11=Àgua:
+item.twm:water_bar_12=Àgua:
+item.twm:water_bar_13=Àgua:
+item.twm:water_bar_14=Àgua:
+item.twm:water_bar_15=Àgua:
+item.twm:water_bar_16=Àgua:
+item.twm:arrow_indicator=Indicador
+item.twm:info=Informações:
+< Progress Bars = Barras de Progressão ##///////////////////////////////////////////////////////////////
