@@ -3,7 +3,7 @@
 
 [Issues / Report Typo](https://github.com/DoriosStudios/Utility-Lang/issues)
 
-[Pull Request / Send your lane file](https://github.com/DoriosStudios/Utility-Lang/pulls)
+[Pull Request / Send your lang file](https://github.com/DoriosStudios/Utility-Lang/pulls)
 
 # Language Repository for UtilityCraft
 This will be, from now on, the main database regarding the add-on's languages.
