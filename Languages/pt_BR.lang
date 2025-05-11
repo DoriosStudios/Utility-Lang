@@ -799,25 +799,25 @@ item.twm:info=Informações:
 < Progress Bars = Barras de Progressão ##///////////////////////////////////////////////////////////////
 
  All the same
-item.twm:utility_book_0=UtilityCraft Book
-item.twm:utility_book_1=Manual do UtilityCraft - Página 2
-item.twm:utility_book_2=Manual do UtilityCraft - Página 3
-item.twm:utility_book_3=Manual do UtilityCraft - Página 4
-item.twm:utility_book_4=Manual do UtilityCraft - Página 5
-item.twm:utility_book_5=Manual do UtilityCraft - Página 6
-item.twm:utility_book_6=Manual do UtilityCraft - Página 7
-item.twm:utility_book_7=Manual do UtilityCraft - Página 8
-item.twm:utility_book_8=Manual do UtilityCraft - Página 9
-item.twm:utility_book_9=Manual do UtilityCraft - Página 10
-item.twm:utility_book_10=Manual do UtilityCraft - Página 11
-item.twm:utility_book_11=Manual do UtilityCraft - Página 12
-item.twm:utility_book_12=Manual do UtilityCraft - Página 13
-item.twm:utility_book_13=Manual do UtilityCraft - Página 14
-item.twm:utility_book_14=Manual do UtilityCraft - Página 15
-item.twm:utility_book_15=Manual do UtilityCraft - Página 16
-item.twm:utility_book_16=Manual do UtilityCraft - Página 17
-item.twm:utility_book_17=Manual do UtilityCraft - Página 18
-item.twm:utility_book_18=Manual do UtilityCraft - Página 19
+item.twm:utility_book_0=Manual do UtilityCraft
+item.twm:utility_book_1=Manual do UtilityCraft
+item.twm:utility_book_2=Manual do UtilityCraft
+item.twm:utility_book_3=Manual do UtilityCraft
+item.twm:utility_book_4=Manual do UtilityCraft
+item.twm:utility_book_5=Manual do UtilityCraft
+item.twm:utility_book_6=Manual do UtilityCraft
+item.twm:utility_book_7=Manual do UtilityCraft
+item.twm:utility_book_8=Manual do UtilityCraft
+item.twm:utility_book_9=Manual do UtilityCraft
+item.twm:utility_book_10=Manual do UtilityCraft
+item.twm:utility_book_11=Manual do UtilityCraft
+item.twm:utility_book_12=Manual do UtilityCraft
+item.twm:utility_book_13=Manual do UtilityCraft
+item.twm:utility_book_14=Manual do UtilityCraft
+item.twm:utility_book_15=Manual do UtilityCraft
+item.twm:utility_book_16=Manual do UtilityCraft
+item.twm:utility_book_17=Manual do UtilityCraft
+item.twm:utility_book_18=Manual do UtilityCraft
 
 ## Machines Entities
 entity.twm:assembler.name=Montador
