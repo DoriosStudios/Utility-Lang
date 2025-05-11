@@ -628,24 +628,28 @@ tile.twm:basic_magmator.name=§eMagmador Básico\n §7 Velocidade: 50 DE/t
 tile.twm:basic_thermo_generator.name=§eGerador Térmico Básico \n §7 Velocidade: 20 DE/t
 tile.twm:basic_battery.name=§eBateria Básica\n §7 Velocidade: 100 DE/t
 tile.twm:basic_solar_panel.name=§ePainel Solar Básico\n §7 Velocidade: 5 DE/t
+tile.twm:basic_wind_turbine.name=§eTurbina Eólica Básica\n §7 Velocidade Base: 5 DE/t\n Multiplicador de Altura Máximo: 360%\n Não funciona abaixo de y20
 
 tile.twm:advanced_furnator.name=§cForgerador Avançado\n §7 Velocidade: 160 DE/t
 tile.twm:advanced_magmator.name=§cMagmador Avançado\n §7 Velocidade: 200 DE/t
 tile.twm:advanced_thermo_generator.name=§cGerador Térmico Avançado \n §7 Velocidade: 80 DE/t
 tile.twm:advanced_battery.name=§cBateria Avançada \n §7 Velocidade: 800 DE/t
 tile.twm:advanced_solar_panel.name=§cPainel Solar Avançado\n §7 Velocidade: 20 DE/t
+tile.twm:basic_wind_turbine.name=§eTurbina Eólica Avançada\n §7 Velocidade Base: 20 DE/t\n Multiplicador de Altura Máximo: 360%\n Não funciona abaixo de y20
 
 tile.twm:expert_furnator.name=§3Forgerador Expert \n §7 Velocidade: 640 DE/t
 tile.twm:expert_magmator.name=§3Magmador Expert \n §7 Velocidade: 800 DE/t
 tile.twm:expert_thermo_generator.name=§3Gerador Térmico Expert\n §7 Velocidade: 320 DE/t
 tile.twm:expert_battery.name=§3Bateria Expert \n §7 Velocidade: 1.6 kDE/t
 tile.twm:expert_solar_panel.name=§3Painel Solar Expert \n §7 Velocidade: 80 DE/t
+tile.twm:basic_wind_turbine.name=§eTurbina Eólica Expert\n §7 Velocidade Base: 160 DE/t\n Multiplicador de Altura Máximo: 360%\n Não funciona abaixo de y20
 
 tile.twm:ultimate_furnator.name=§8Forgerador Supremo \n §7 Velocidade: 4 kDE/t
 tile.twm:ultimate_magmator.name=§8Magmador Supremo\n §7 Velocidade: 5 kDE/t
 tile.twm:ultimate_thermo_generator.name=§8Gerador Térmico Supremo \n §7 Velocidade: 2 kDE/t
 tile.twm:ultimate_battery.name=§8Bateria Suprema\n §7 Velocidade: 10 kDE/t
 tile.twm:ultimate_solar_panel.name=§8Painel Solar Supremo \n §7 Velocidade: 500 DE/t
+tile.twm:basic_wind_turbine.name=§eTurbina Eólica Básica\n §7 Velocidade Base: 640 DE/t\n Multiplicador de Altura Máximo: 360%\n Não funciona abaixo de y20
 < Energy Generators = Geradores de Energia 
 ##///////////////////////////////////////////////////////////////
 
@@ -793,3 +797,47 @@ item.twm:water_bar_16=Àgua:
 item.twm:arrow_indicator=Indicador
 item.twm:info=Informações:
 < Progress Bars = Barras de Progressão ##///////////////////////////////////////////////////////////////
+
+ All the same
+item.twm:utility_book_0=UtilityCraft Book
+item.twm:utility_book_1=Manual do UtilityCraft - Página 2
+item.twm:utility_book_2=Manual do UtilityCraft - Página 3
+item.twm:utility_book_3=Manual do UtilityCraft - Página 4
+item.twm:utility_book_4=Manual do UtilityCraft - Página 5
+item.twm:utility_book_5=Manual do UtilityCraft - Página 6
+item.twm:utility_book_6=Manual do UtilityCraft - Página 7
+item.twm:utility_book_7=Manual do UtilityCraft - Página 8
+item.twm:utility_book_8=Manual do UtilityCraft - Página 9
+item.twm:utility_book_9=Manual do UtilityCraft - Página 10
+item.twm:utility_book_10=Manual do UtilityCraft - Página 11
+item.twm:utility_book_11=Manual do UtilityCraft - Página 12
+item.twm:utility_book_12=Manual do UtilityCraft - Página 13
+item.twm:utility_book_13=Manual do UtilityCraft - Página 14
+item.twm:utility_book_14=Manual do UtilityCraft - Página 15
+item.twm:utility_book_15=Manual do UtilityCraft - Página 16
+item.twm:utility_book_16=Manual do UtilityCraft - Página 17
+item.twm:utility_book_17=Manual do UtilityCraft - Página 18
+item.twm:utility_book_18=Manual do UtilityCraft - Página 19
+
+## Machines Entities
+entity.twm:assembler.name=Montador
+entity.twm:autosieve.name=Peneirador
+entity.twm:block_breaker.name=Quebrador
+entity.twm:block_placer.name=Colocador
+entity.twm:crusher.name=Triturador
+entity.twm:digitizer.name=Digitalizador
+entity.twm:electro_press.name=Prensa Elétrica
+entity.twm:harvester.name=Colheitadeira
+entity.twm:incinerator.name=Incinerador
+entity.twm:induction_anvil.name=Bigorna de Indução
+entity.twm:infuser.name=Infusor
+entity.twm:magmatic_chamber.name=Câmara Magmática
+entity.twm:seed_synthesizer.name=Sintetizador de Sementes
+
+## Generators Entities
+entity.twm:battery.name=Bateria
+entity.twm:furnator.name=Forgerador
+entity.twm:magmator.name=Magmador
+entity.twm:solar_panel.name=Painel Solar
+entity.twm:thermo_generator.name=Gerador Térmico
+entity.twm:wind_turbine.name=Gerador Eólico
