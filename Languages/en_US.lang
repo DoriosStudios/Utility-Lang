@@ -14,6 +14,8 @@ tile.twm:crusher.name=Crusher
 tile.twm:harvester.name=Harvester
 tile.twm:machine_case.name=Machine Case
 tile.twm:sieve.name=Sieve
+tile.twm:assembler.name=Assembler
+tile.twm:digitizer.name=Digitizer
 ## +
 tile.twm:fan.name=Fan
 tile.twm:mob_grinder.name=Mob Grinder
@@ -728,3 +730,48 @@ item.twm:flint_knife=Flint Knife
 item.twm:fiber=Fiber
 tile.twm:item_exporter.name=Item Exporter
 item.twm:mortar=Mortar
+item.twm:blueprint_paper=Empty Blueprint
+item.twm:blueprint=Blueprint
+
+## All the same
+item.twm:utility_book_0=UtilityCraft Book
+item.twm:utility_book_1=UtilityCraft Book
+item.twm:utility_book_2=UtilityCraft Book
+item.twm:utility_book_3=UtilityCraft Book
+item.twm:utility_book_4=UtilityCraft Book
+item.twm:utility_book_5=UtilityCraft Book
+item.twm:utility_book_6=UtilityCraft Book
+item.twm:utility_book_7=UtilityCraft Book
+item.twm:utility_book_8=UtilityCraft Book
+item.twm:utility_book_9=UtilityCraft Book
+item.twm:utility_book_10=UtilityCraft Book
+item.twm:utility_book_11=UtilityCraft Book
+item.twm:utility_book_12=UtilityCraft Book
+item.twm:utility_book_13=UtilityCraft Book
+item.twm:utility_book_14=UtilityCraft Book
+item.twm:utility_book_15=UtilityCraft Book
+item.twm:utility_book_16=UtilityCraft Book
+item.twm:utility_book_17=UtilityCraft Book
+item.twm:utility_book_18=UtilityCraft Book
+
+## Machines Entities
+entity.twm:assembler.name=Assembler
+entity.twm:autosieve.name=Autosieve
+entity.twm:block_breaker.name=Block Breaker
+entity.twm:block_placer.name=Block Placer
+entity.twm:crusher.name=Crusher
+entity.twm:digitizer.name=Digitizer
+entity.twm:electro_press.name=Electro Press
+entity.twm:harvester.name=Harvester
+entity.twm:incinerator.name=Incinerator
+entity.twm:induction_anvil.name=Induction Anvil
+entity.twm:infuser.name=Infuser
+entity.twm:magmatic_chamber.name=Magmatic Chamber
+entity.twm:seed_synthesizer.name=Seed Synthesizer
+
+## Generators Entities
+entity.twm:battery.name=Battery
+entity.twm:furnator.name=Furnator
+entity.twm:magmator.name=Magmator
+entity.twm:solar_panel.name=Solar Panel
+entity.twm:thermo_generator.name=Thermo Generator
