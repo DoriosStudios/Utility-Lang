@@ -1,4 +1,5 @@
 ## Translated by Milo
+## Managed Strictly by Dorios Studios
 
 - Bloques = ## Bloques
 
@@ -386,10 +387,6 @@ item.twm:wither_seeds=Wither Seeds \n§8Tier 4
 ## -------- Close Group <<<<<<<< ##
 
 
-## --------------------------------------------------------
-## You've gone too far, rest a little bit before proceding.
-## --------------------------------------------------------
-
 
 - Mesh = ## Meshs
 item.twm:string_mesh=String Mesh
@@ -662,6 +659,11 @@ dorios:itemGroup.name.cobble_gens=Cobblestone Generators
 dorios:itemGroup.name.soils=Soils
 dorios:itemGroup.name.dusts=Dusts
 dorios:itemGroup.name.indicators=Indicators
+dorios:itemGroup.name.bags=Bags
+dorios:itemGroup.name.bundles=Bundles
+dorios:itemGroup.name.vases=Vases
+dorios:itemGroup.name.jars=Jars
+dorios:itemGroup.name.pebbles=Pebbles
 ## < Categories
 
 tile.twm:induction_anvil.name=Induction Anvil
@@ -673,7 +675,7 @@ tile.twm:fluid_pump.name=Fluid Pump
 
 
 
-dorios:itemGroup.name.pebbles=Pebbles
+
 item.twm:ancient_debris_chunk=Ancient Debris Chunk
 item.twm:blackstone_pebble=Blackstone Pebble
 item.twm:basalt_pebble=Basalt Pebble
@@ -732,6 +734,54 @@ tile.twm:item_exporter.name=Item Exporter
 item.twm:mortar=Mortar
 item.twm:blueprint_paper=Empty Blueprint
 item.twm:blueprint=Blueprint
+
+## Compressed Items
+## - Bags
+item.twm:bag_of_beetroot_seeds=Bag of Beetroot Seeds
+item.twm:bag_of_black_dye=Bag of Black Dye
+item.twm:bag_of_blaze_powder=Bag of Blaze Powder
+item.twm:bag_of_blue_dye=Bag of Blue Dye
+item.twm:bag_of_brown_dye=Bag of Brown Dye
+item.twm:bag_of_cocoa_beans=Bag of Cocoa Beans
+item.twm:bag_of_cyan_dye=Bag of Cyan Dye
+item.twm:bag_of_feathers=Bag of Feathers
+item.twm:bag_of_magenta_dye=Bag of Magenta Dye
+item.twm:bag_of_glowstone_dust=Bag of Glowstone Dust
+item.twm:bag_of_gray_dye=Bag of Gray Dye
+item.twm:bag_of_green_dye=Bag of Green Dye
+item.twm:bag_of_gunpowder=Bag of Gunpowder
+item.twm:bag_of_light_blue_dye=Bag of Light Blue Dye
+item.twm:bag_of_light_gray_dye=Bag of Light Gray Dye
+item.twm:bag_of_lime_dye=Bag of Lime Dye
+item.twm:bag_of_orange_dye=Bag of Orange Dye
+item.twm:bag_of_pink_dye=Bag of Pink Dye
+item.twm:bag_of_pitcher_pod=Bag of Pitcher Pod
+item.twm:bag_of_pumpkin_seeds=Bag of Pumpkin Seeds
+item.twm:bag_of_purple_dye=Bag of Purple Dye
+item.twm:bag_of_red_dye=Bag of Red Dye
+item.twm:bag_of_sugar=Bag of Sugar
+item.twm:bag_of_torchflower_seeds=Bag of Torchflower Seeds
+item.twm:bag_of_melon_seeds=Bag of Melon Seeds
+item.twm:bag_of_wheat_seeds=Bag of Wheat Seeds
+item.twm:bag_of_white_dye=Bag of White Dye
+item.twm:bag_of_yellow_dye=Bag of Yellow Dye
+
+## - Bundles
+item.twm:bundle_of_blaze_rods=Bundle of Blaze Rods
+item.twm:bundle_of_breeze_rods=Bundle of Breeze Rods
+item.twm:bundle_of_sticks=Bundle of Sticks
+
+## - Jars
+item.twm:jar_of_cookies=Jar of Cookies
+item.twm:jar_of_ghast_tears=Jar of Ghast Tears
+item.twm:jar_of_glow_ink=Jar of Glow Ink
+item.twm:jar_of_ink=Jar of Ink
+
+## Other
+item.twm:ream_of_paper=Ream of Paper
+item.twm:spool_of_strings=Spool of Strings
+item.twm:vase_of_fermented_spider_eyes=Vase of Fermented Spider Eyes
+item.twm:vase_of_spider_eye=Vase of Spider Eye
 
 ## All the same
 item.twm:utility_book_0=UtilityCraft Book
