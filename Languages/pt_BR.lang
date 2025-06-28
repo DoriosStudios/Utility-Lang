@@ -707,6 +707,47 @@ tile.twm:raw_steel_block.name=Bloco de Aço Bruto
 item.twm:arrow_indicator_90=Seta Indicadora
 < Stuff = ## Coisas Não-Categorizadas
 
+item.twm:bag_of_beetroot_seeds=Saco de Sementes de Beterraba
+item.twm:bag_of_black_dye=Saco de Corante Preto
+item.twm:bag_of_blaze_powder=Saco de Pó de Chama
+item.twm:bag_of_blue_dye=Saco de Corante Azul
+item.twm:bag_of_brown_dye=Saco de Corante Marrom
+item.twm:bag_of_cocoa_beans=Saco de Grãos de Cacau
+item.twm:bag_of_cyan_dye=Saco de Corante Ciano
+item.twm:bag_of_feathers=Saco de Penas
+item.twm:bag_of_magenta_dye=Saco de Corante Magenta
+item.twm:bag_of_glowstone_dust=Saco de Pó de Pedra-luminosa
+item.twm:bag_of_gray_dye=Saco de Corante Cinza
+item.twm:bag_of_green_dye=Saco de Corante Verde
+item.twm:bag_of_gunpowder=Saco de Pólvora
+item.twm:bag_of_light_blue_dye=Saco de Corante Azul-claro
+item.twm:bag_of_light_gray_dye=Saco de Corante Cinza-claro
+item.twm:bag_of_lime_dye=Saco de Corante Lima
+item.twm:bag_of_orange_dye=Saco de Corante Laranja
+item.twm:bag_of_pink_dye=Saco de Corante Rosa
+item.twm:bag_of_pitcher_pod=Saco de Vagem de Jarro
+item.twm:bag_of_pumpkin_seeds=Saco de Sementes de Abóbora
+item.twm:bag_of_purple_dye=Saco de Corante Roxo
+item.twm:bag_of_red_dye=Saco de Corante Vermelho
+item.twm:bag_of_sugar=Saco de Açúcar
+item.twm:bag_of_torchflower_seeds=Saco de Sementes de Plantocha
+item.twm:bag_of_melon_seeds=Saco de Sementes de Melancia
+item.twm:bag_of_wheat_seeds=Saco de Sementes de Trigo
+item.twm:bag_of_white_dye=Saco de Corante Branco
+item.twm:bag_of_yellow_dye=Saco de Corante Amarelo
+item.twm:bundle_of_blaze_rods=Pacote de Varas de Chama
+item.twm:bundle_of_breeze_rods=Pacote de Varas de Brisa
+item.twm:bundle_of_sticks=Pacote de Gravetos
+item.twm:jar_of_cookies=Pote de Biscoitos
+item.twm:jar_of_ghast_tears=Pote de Lágrimas de Ghast
+item.twm:jar_of_glow_ink=Pote de Saco de Tinta Luminosa
+item.twm:jar_of_ink=Pote de Saco de Tinta
+item.twm:ream_of_paper=Pilha de Papel
+item.twm:spool_of_strings=Carretel de Linha
+item.twm:vase_of_fermented_spider_eyes=Vaso de Olhos de Aranha Fermentados
+item.twm:vase_of_spider_eye=Vaso de Olhos de Aranha
+
+
 ## - Categories
 dorios:itemGroup.name.generators=Geradores
 dorios:itemGroup.name.machines=Máquinas
@@ -723,6 +764,10 @@ dorios:itemGroup.name.dusts=Pós
 dorios:itemGroup.name.seeds=Sementes
 dorios:itemGroup.name.basics=Básicos
 dorios:itemGroup.name.mob_grinding=Gerenciamento de Criaturas
+dorios:itemGroup.name.bags=Sacos
+dorios:itemGroup.name.bundles=Pacotes
+dorios:itemGroup.name.vases=Vasos
+dorios:itemGroup.name.jars=Potes
 ## < Categories
 
 - Progress Bars = Barras de Progressão ##///////////////////////////////////////////////////////////////
